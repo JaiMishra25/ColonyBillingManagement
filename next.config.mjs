@@ -1,3 +1,6 @@
+import nextPWA from 'next-pwa'
+import path from 'path'
+
 let userConfig = undefined
 try {
   userConfig = await import('./v0-user-next.config')
@@ -5,8 +8,7 @@ try {
   // ignore error
 }
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const baseConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -23,12 +25,24 @@ const nextConfig = {
   },
 }
 
-mergeConfig(nextConfig, userConfig)
+// Merge user config
+mergeConfig(baseConfig, userConfig)
+
+// Apply next-pwa
+const nextConfig = nextPWA({
+  ...baseConfig,
+  pwa: {
+    dest: 'public',
+    register: true,
+    skipWaiting: true,
+    disable: process.env.NODE_ENV === 'development',
+  },
+})
+
+export default nextConfig
 
 function mergeConfig(nextConfig, userConfig) {
-  if (!userConfig) {
-    return
-  }
+  if (!userConfig) return
 
   for (const key in userConfig) {
     if (
@@ -44,5 +58,3 @@ function mergeConfig(nextConfig, userConfig) {
     }
   }
 }
-
-export default nextConfig
