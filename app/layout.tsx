@@ -8,14 +8,17 @@ export const metadata: Metadata = {
   title: "Annapurna Badavane Association",
   description: "Monthly maintenance bill generating portal",
   generator: "v0.dev",
-  themeColor: "#ffffff",
   manifest: "/manifest.json",
   icons: [
-    { rel: "icon", url: "/favicon.ico" },
-    { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
-    { rel: "icon", url: "/android-chrome-192x192.png", sizes: "192x192" },
-    { rel: "icon", url: "/android-chrome-512x512.png", sizes: "512x512" },
+    { rel: "icon", url: "/icons/favicon.ico" },
+    { rel: "apple-touch-icon", url: "/icons/apple-touch-icon.png" },
+    { rel: "icon", url: "/icons/android-chrome-192x192.png", sizes: "192x192" },
+    { rel: "icon", url: "/icons/android-chrome-512x512.png", sizes: "512x512" },
   ],
+};
+
+export const viewport = {
+  themeColor: "#ffffff",  // Move themeColor here
 };
 
 export default function RootLayout({
@@ -27,20 +30,20 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="manifest" href="/manifest.json" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon-32x32.png"
+          href="/icons/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon-16x16.png"
+          href="/icons/favicon-16x16.png"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icons/favicon.ico" />
         <meta name="theme-color" content="#ffffff" />
       </head>
 

@@ -30,14 +30,11 @@ mergeConfig(baseConfig, userConfig)
 
 // Apply next-pwa
 const nextConfig = nextPWA({
-  ...baseConfig,
-  pwa: {
-    dest: 'public',
-    register: true,
-    skipWaiting: true,
-    disable: process.env.NODE_ENV === 'development',
-  },
-})
+  dest: 'public',
+  register: true,
+  skipWaiting: true,
+  disable: process.env.NODE_ENV === 'development',
+})(baseConfig)
 
 export default nextConfig
 
