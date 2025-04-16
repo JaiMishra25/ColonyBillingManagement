@@ -27,7 +27,7 @@ export default function UnauthorizedPage() {
         <h1 className="text-3xl font-bold text-gray-800">BUSTED! 🕵️‍♂️</h1>
         
         <p className="text-gray-600">
-          Our security system just caught you red-handed! Your hacking skills need serious work... have you tried "admin" and "password123"? Oh wait, that won't work either! 😂
+        🚨 Nice try, hacker! Our system saw you coming from a mile away. Better luck next time 😎
         </p>
         
         <Button 
