@@ -77,7 +77,7 @@ Before this application:
 
 ### 🧑‍💼 Resident Management
 
-![Resident Management](./public/screenshots/admin-resident.png)
+![Resident Management](./public/screenshots/adding-resident.png)
 
 - CRUD operations on resident data
 - Auto-form validation
