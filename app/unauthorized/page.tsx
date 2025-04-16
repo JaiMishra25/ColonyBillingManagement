@@ -39,7 +39,7 @@ export default function UnauthorizedPage() {
       </div>
       
       <footer className="fixed bottom-4 text-center text-sm text-gray-500">
-        <p>Made with ❤️ by Shravya N</p>
+        <p>Made with ❤️ by Jai Mishra</p>
       </footer>
     </div>
   )
