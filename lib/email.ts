@@ -85,11 +85,11 @@ export async function sendBillEmail(resident: Resident, bill: SentBill) {
   const mailOptions = {
     from: process.env.EMAIL_FROM,
     to: email,
-    subject: `Annapurna Badavane Association - Maintenance Bill for ${monthName} ${year}`,
+    subject: `Jal Vayu Vihar Association - Maintenance Bill for ${monthName} ${year}`,
     html: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 5px;">
         <div style="text-align: center; margin-bottom: 20px;">
-          <h2 style="color: #333;">Annapurna Badavane Association</h2>
+          <h2 style="color: #333;">Jal Vayu Vihar Association</h2>
           <p style="color: #666;">Monthly Maintenance Bill</p>
         </div>
         
@@ -127,12 +127,12 @@ export async function sendBillEmail(resident: Resident, bill: SentBill) {
         
         <div style="margin-top: 30px; text-align: right;">
           <p style="font-weight: bold; margin-bottom: 5px;">Treasurer</p>
-          <p>GY Niranjan</p>
+          <p>Jai Mishra</p>
         </div>
         
         <div style="margin-top: 30px; font-size: 12px; color: #666; text-align: center; border-top: 1px solid #e0e0e0; padding-top: 15px;">
  <p style="margin-bottom: 10px;">Thank you</p>
-      <p style="margin-bottom: 10px;">If you have any queries, mail us at annapurnabadavane@gmail.com</p>
+      <p style="margin-bottom: 10px;">If you have any queries, mail us at Jaimishra502@gmail.com</p>
       
         </div>
       </div>
