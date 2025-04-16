@@ -5,9 +5,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Annapurna Badavane Association",
+  title: "Jal Vayu Vihar Association",
   description: "Monthly maintenance bill generating portal",
-  generator: "v0.dev",
+  generator: "Jai Mishra",
   manifest: "/manifest.json",
   icons: [
     { rel: "icon", url: "/icons/favicon.ico" },
