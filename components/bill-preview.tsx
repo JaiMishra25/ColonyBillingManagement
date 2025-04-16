@@ -25,7 +25,7 @@ export function BillPreview({ resident, month, year, amount }: BillPreviewProps)
   return (
     <div className="bg-white p-4 rounded-md">
       <div className="text-center mb-6">
-        <h2 className="text-xl font-bold">Annapurna Badavane Association</h2>
+        <h2 className="text-xl font-bold">Jal Vayu Vihar</h2>
         <p className="text-gray-600">Monthly Maintenance Bill</p>
       </div>
 
@@ -76,7 +76,7 @@ export function BillPreview({ resident, month, year, amount }: BillPreviewProps)
 
       <div className="mt-10 text-right">
         <p className="font-bold">Treasurer</p>
-        <p>GY Niranjan</p>
+        <p>Jai Mishra</p>
       </div>
     </div>
   )

@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-center p-4 pt-16">
         <div className="w-full max-w-md text-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-800">Annapurna Badavane Association</h1>
+          <h1 className="text-3xl font-bold text-gray-800">Jal Vayu Vihar Association</h1>
           <p className="text-gray-600 mt-2">Monthly maintenance bill generating portal</p>
         </div>
 
