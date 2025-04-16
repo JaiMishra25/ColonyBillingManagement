@@ -4,8 +4,6 @@
 
 The **Jal Vayu Vihar Billing Portal** is a modern full-stack Progressive Web App (PWA) designed to automate and simplify the monthly maintenance fee collection process for residents. This project replaces traditional manual billing with an efficient digital solution.
 
-> 🛡️ _Note: This repository and its data are private and meant only for authorized administrators._
-
 ---
 
 ## 🎯 Real World Problem Solved
