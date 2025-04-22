@@ -54,7 +54,7 @@ Before this application:
 
 ## 💻 Tech Stack
 
-- **Frontend**: Next.js 14 (React), TypeScript, Tailwind CSS, shadcn/ui
+- **Frontend**: Next.js 14 (React), TypeScript, Tailwind CSS, Shadcn/UI
 - **Backend**: Next.js API Routes & Server Actions
 - **Database**: MongoDB with Mongoose
 - **Email Service**: Nodemailer
